@@ -295,7 +295,7 @@ a:hover {
 /* Improved contrast for footer links */
 .liststyle {
     list-style: none;
-    margin-left: -10px;
+    margin-left: -40px;
 }
 
 .liststyle a {
@@ -668,7 +668,7 @@ h5,
 h6,
 p,
 label,
-.btn,
+.btn
 {
     font-family: "helvetica";
     font-weight: 400;
@@ -698,7 +698,7 @@ label,
 }
 
 p {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
