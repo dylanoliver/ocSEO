@@ -725,6 +725,10 @@ p {
     margin: auto auto auto auto;
 }
 
+.s-text {
+    visibility: hidden;
+}
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -814,6 +818,7 @@ h4 {
     background: #c27956!important;
     color: #FFFFFF!important;
 }
+
 
 .ltc-white {
     color: #FFFFFF!important;
