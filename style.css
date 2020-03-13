@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, 1);
 }
 
 .d-bloc .a-btn:hover,
@@ -283,9 +283,30 @@ a:hover {
     padding-left: 0;
 }
 
+/* Amended font size to 16px for improved legibility */
 #bloc-2-services p {
-    font-size: 11px;
+    font-size: 16px;
 }
+
+.highlight {
+    font-size: 32px;
+}
+
+/* Improved contrast for footer links */
+.liststyle {
+    list-style: none;
+    margin-left: -10px;
+}
+
+.liststyle a {
+    color: rgba(255, 255, 255, 1)
+}
+
+.liststyle a:hover {
+    color: rgba(255, 255, 255, .5)
+}
+
+
 
 .navbar {
     margin-bottom: 0;
@@ -648,7 +669,7 @@ h6,
 p,
 label,
 .btn,
-a {
+{
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
@@ -779,9 +800,9 @@ h4 {
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
-
+/* Amended text color */
 .tc-white {
-    color: #364577!important;
+    color: #fff!important;
 }
 
 .btn-atomic-tangerine {
@@ -830,6 +851,7 @@ h4 {
 .bg-atlanta-20made-20sign-20orange {
     background-image: url("img/atlanta%20made%20sign%20orange.jpg");
 }
+
 
 @media (max-width: 1024px) {
     .bloc {
